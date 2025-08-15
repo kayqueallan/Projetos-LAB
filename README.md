@@ -1,4 +1,4 @@
-# Portfólio Profissional — Portfolio TiagoBA
+# Portfólio Profissional — Tiago Boaventura Amaral
 
 Template genérico do Lab01S01 para a disciplina **Laboratório de Desenvolvimento de Software**.
 
@@ -60,3 +60,8 @@ npm run build
 # preview do build
 npm run preview
 ```
+
+---
+
+**Disciplina:** Laboratório de Desenvolvimento de Software (João Aramuni)  
+**Aluno:** Tiago Boaventura Amaral
