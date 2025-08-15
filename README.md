@@ -64,4 +64,4 @@ npm run preview
 ---
 
 **Disciplina:** Laboratório de Desenvolvimento de Software (João Aramuni)  
-**Aluno:** Tiago Boaventura Amaral
+**Alunos:** Kayque Allan e Tiago Boaventura Amaral
