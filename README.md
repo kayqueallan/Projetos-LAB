@@ -70,7 +70,7 @@ npm run preview
 
 **Experiências:**
 
-![Experiencias](WireframesFigma/experiencias.png)
+![Experiencias](WireframesFigma/experienciass.png)
 
 **Projetos:**
 
