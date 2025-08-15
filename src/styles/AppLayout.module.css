@@ -1,0 +1,181 @@
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background: #0b0c10;
+  color: #e5e7eb;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: #111217;
+  border-bottom: 1px solid #26272e;
+  z-index: 10;
+}
+
+.nav {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center; /* Changed from flex-start to center */
+  }
+
+  .brand {
+    margin-bottom: 1rem; /* Added to create space between brand and menu */
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .menu a {
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem;
+  }
+}
+
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #cbd5e1;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  transition: background 0.2s ease;
+}
+
+.menu a:hover {
+  background: #1a1b22;
+}
+
+.active {
+  background: #1f2937;
+  color: #fff;
+}
+
+.main {
+  max-width: 1080px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem 1rem 3rem;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem;
+  }
+}
+
+.footer {
+  border-top: 1px solid #26272e;
+  background: #111217;
+  padding: 1rem;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+
+.nameAndPhotoContainer {
+  display: flex;
+  flex-direction: column; /* Always stack photo above name */
+  align-items: center; /* Always center horizontally */
+  width: 100%;
+}
+
+.nameAndPhotoContainer h1 {
+  margin-top: 10px; /* Space between photo and name */
+  margin-left: 0; /* Ensure no left margin */
+  text-align: center; /* Center the text */
+}
+
+.photoPlaceholder {
+  width: 150px; /* Adjusted for responsiveness */
+  height: 150px; /* Adjusted for responsiveness */
+  background-color: #333;
+  border-radius: 15px;
+  object-fit: cover; /* Prevent image stretching */
+  margin-bottom: 10px; /* Space below the photo */
+}
+
+@media (min-width: 769px) {
+  .photoPlaceholder {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.advanceButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #61dafb; /* Example color */
+  color: #282c34;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.advanceButton:hover {
+  background-color: #21a1f1;
+}
+
+.aboutMeButtonsContainer {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  margin-top: 20px; /* Space above buttons */
+}
+
+@media (max-width: 600px) {
+  .aboutMeButtonsContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aboutMeButtonsContainer button {
+    width: 100%;
+  }
+}
+
+.aboutMeButtonsContainer button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Example button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 120px; /* Ensure consistent width */
+  transition: background-color 0.3s ease;
+}
+
+.aboutMeButtonsContainer button:hover {
+  background-color: #0056b3;
+}
