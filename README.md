@@ -1,4 +1,4 @@
-# Portfólio Profissional — Tiago Boaventura Amaral
+# Portfólio Profissional — Kayque Allan
 
 **Disciplina:** Laboratório de Desenvolvimento de Software (João Aramuni)  
 **Alunos:** Kayque Allan e Tiago Boaventura Amaral
