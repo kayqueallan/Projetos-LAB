@@ -1,4 +1,4 @@
-# Portfólio Profissional — Tiago Boaventura Amaral
+# Portfólio Profissional — Kayque Allan
 
 Template genérico do Lab01S01 para a disciplina **Laboratório de Desenvolvimento de Software**.
 
