@@ -1,13 +1,11 @@
-# Portfólio Profissional — Kayque Allan
+# Portfólio Profissional — Tiago Boaventura Amaral
 
-Template genérico do Lab01S01 para a disciplina **Laboratório de Desenvolvimento de Software**.
+**Disciplina:** Laboratório de Desenvolvimento de Software (João Aramuni)  
+**Alunos:** Kayque Allan e Tiago Boaventura Amaral
 
-## 🎯 Escopo desta Sprint (S01)
-
-- Repositório inicial com README.
-- Wireframes.
-- Protótipo inicial do front-end com **React + Vite**.
-- Navegação entre seções e layout principal (cabeçalho, conteúdo, rodapé).
+O objetivo desse projeto é desenvolver um website de portfólio profissional, visando
+apresentar a trajetória, habilidades, projetos e formas de contato de maneira moderna
+e acessível.
 
 ## 🧱 Tecnologias previstas
 
@@ -61,7 +59,28 @@ npm run build
 npm run preview
 ```
 
+## 💻 Wireframes
+**Home:**
+
+![Home](WireframesFigma/home.png)
+
+**Sobre Mim:**
+
+![Sobre](WireframesFigma/sobre.png)
+
+**Experiências:**
+
+![Experiencias](WireframesFigma/experiencias.png)
+
+**Projetos:**
+
+![Projetos](WireframesFigma/projetos.png)
+
+**Contatos:**
+
+![Contatos](WireframesFigma/contatos.png)
+
 ---
 
-**Disciplina:** Laboratório de Desenvolvimento de Software (João Aramuni)  
-**Alunos:** Kayque Allan e Tiago Boaventura Amaral
+
+
